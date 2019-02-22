@@ -1,0 +1,270 @@
+ .containermenu{
+    width: 100%;
+    height: 81px;
+    background-color:#ffffff;
+    font-size:15px;
+}
+
+.containermenu .container-center{
+    width: 1100px;
+    margin: 0 auto;
+    height: 81px;
+
+}
+
+.containermenu .container-center img{
+    width: 110px ;
+    position: relative;
+    top: 14px;
+}
+
+.containermenu .menu-right{
+    float: right;
+}
+
+.list-menu{
+   position: relative;
+  bottom: 17px;
+}
+
+.dropbtn {
+    background-color: white;
+    border: none;
+    color: #19345E;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px 20px;
+    transition: all 0.5s ease;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown :hover{
+    color: #F47522;
+    background-color:white;
+}
+
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    border-radius: 9px;
+    border-color: transparent;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(196, 196, 196, 0.22);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(196, 196, 196, 0.22);
+    box-shadow: 0px 3px 6px 0px rgba(196, 196, 196, 0.22);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a{
+    font-size: 15px;
+    color: #19345E;
+    font-family: 'SFCompactDisplay-Regular', sans-serif;
+    padding: 15px 30px;
+    transition: all 0.5s ease;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:transparent;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: ;}
+
+  .customer{
+    padding: 5px 20px;
+    color: #19345E;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px 20px;
+    transition: all 0.5s ease;
+    text-decoration: none !important;
+    font-family: 'SFCompactDisplay-Regular', sans-serif;
+
+  }
+  a.customer:hover{
+    color: #F47522;
+  }
+
+  .whyus{
+    color: #19345E;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px 20px;
+    transition: all 0.5s ease;
+    text-decoration: none !important;
+    font-family: 'SFCompactDisplay-Regular', sans-serif;
+    
+  }
+  a.whyus:hover{
+    color: #F47522;
+  }
+
+  .tombol-nav{
+    color: #F47522;
+    border: 1px solid #F47522;
+    border-radius: 16px;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 7px 20px;
+    transition: all 0.5s ease;
+    text-decoration: none !important;
+    font-family: 'SFCompactDisplay-Regular', sans-serif;
+  }
+  a.tombol-nav:hover{
+    color: white;
+    background-color:#F47522; 
+  }
+
+  i {
+    border: solid #19345E;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  i.arrow:hover{
+    color: #F47522 !important ;
+  }
+
+  .svg{
+    padding-left:10px;
+  }
+
+  .undermenuimage{
+    top: 0;
+    left: 0;
+    bottom: 0; 
+    content: "";
+    background-image: url(../assets/img/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: 611px;
+    width: 611px;
+    height: 309px;
+    background-position: right;
+  }
+
+  .undermenus{
+    width: 100%;
+    background-color: #19345E;
+  }
+  .undermenuscontainer{
+    width: 1300px;
+    margin: 0 auto;
+  }
+
+  .header_text{
+    font-family: 'Muli', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 95px;
+    float: right;
+    width: 50%;
+    max-width: 525px;
+    margin-right: 70px;
+  }
+
+  .at-content .at-desc-left {
+    float: left;
+    width: 480px;
+    height: 490px;
+    position: relative;
+}
+
+.at-content .at-desc-left {
+  float: left;
+  width: 480px;
+  height: 490px;
+  position: relative;
+  background-color: blue;
+}
+
+.at-content .at-content--txt {
+  width: 100%;
+  background-color: blue;
+}
+
+.at-content .at-desc-left {
+    float: left;
+    width: 480px;
+    height: 490px;
+    position: relative;
+}
+
+.at-batik2 {
+  position: absolute;
+  left: -115px;
+  bottom: -120px;
+  width: 60%!important;
+  z-index: -1;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.containerutama{
+  width: 1100px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  position: relative ;
+}
+
+.container-left{
+  max-width: 480px;
+  background-color: yellow;
+  float: left;
+}
+
+.container-left h1{
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+.container-left p{
+    font-family: 'SFCompactDisplay-Light', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+.container-right{
+  float: right;
+}
+
+.colophon{
+  position: absolute;
+}
