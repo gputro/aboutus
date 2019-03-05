@@ -27,6 +27,19 @@ get_header();
                     <img class="batik" src="/wp-content/themes/aboutus/assets/img/batik2.svg" width="420" alt="Image" class="at-img-full">
 				</div>
 			</div>
+			<div class="milestone">
+				<div class="milestone-container">
+					<div class ="image-left">
+						<img src="/wp-content/themes/aboutus/assets/img/about_milestone@2x.png" width="472" alt="Image" class="at-img-full">
+						<div class="text-right">
+							<h1>Milestone</h1>
+							<p>The company has established since 2015 under the name Sepulsa, then it evolved as the pioneer of digital bill payment services, enabling top online players in Indonesia. It also served as technology enabler for offline to online (O2O) distribution network for Telco Industries, helping thousands of telco agents across Indonesia to get better use of technology for their business.</p>
+						</div>
+					</div>
+					
+				</div>
+				
+				</div>
 	</div>
 
 <?php
