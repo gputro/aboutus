@@ -470,3 +470,32 @@ font-size: 20px;
     margin-right: auto;
     margin-left: auto;
 }
+ .at-footer--logo img {
+  width: 110px;
+  margin-bottom: 40px;
+}
+.at-footer--logo span {
+  display: block;
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+}
+
+footer ul li a {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  padding: 10px 0;
+  display: block;
+  color: #ffffff;
+}
+footer h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
