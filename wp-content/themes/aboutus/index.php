@@ -18,7 +18,7 @@ get_header();
 			<div class="containerutama">
 				<div class="container-left">
                     <div class="isi-container">
-					<h1>Who is alterra?</h1>
+					<h1 class="who-is-altera">Who is alterra?</h1>
 					<p>alterra is the leading B2B tech company in Indonesia that provides a wide range of services such as Bill Payment Aggregator, Distribution Network, Promotion Platform, and Tech Academy.</p>
                     </div>
 				</div>
@@ -61,10 +61,10 @@ get_header();
                 </div>
                 
             </div>
-          <div class="at-company mt-5 mb-5 aos-init aos-animate" data-aos="zoom-in">
+          <div class="at-company">
         <div class="container text-center">
             <h5 class="font-weight-bold">Alterra is proud to partner with Indonesia’s top tech companies and build the country’s digital ecosystem together</h5>
-            <ul class="at-company--logo list-unstyled clearfix">
+            <ul class="company-logo">
                         <li>
                             <a href="">
                                 <img src="https://www.alterra.id/wp-content/uploads/2018/12/logo-tokopedia.png" alt="Tokopedia" width="92">
